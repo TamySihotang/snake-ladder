@@ -5,8 +5,8 @@ public class Player {
     int position;
 
 
-    public Player(String name) {
+    public Player(String name, int position) {
         this.name = name;
-        this.position = 0;
+        this.position = position;
     }
 }
